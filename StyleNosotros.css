@@ -1,0 +1,90 @@
+html{
+    font-family: 'Montserrat', sans-serif;}
+body{
+    background-color: orange;
+    
+}
+header{
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+    color: red;
+    border-radius: 10px;
+    border: 1px solid red;
+    height: max-content;
+}
+
+header h1{
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+nav ul li{
+    float: left;
+    margin: 5px 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+.menu{
+    /* border: 1px solid red; */
+    width: min-content;
+    border-radius: 10px;
+    background-color: orange;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+header a{
+    transition: color 0.5s ease;
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    color: red;
+    /* background-color: white; */
+}
+
+h2{
+    text-align: center;
+    color: red;
+    /* border-bottom: 1px solid red; */
+}
+.clearfix{
+    clear: both;
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: yellow;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0rem;
+    cursor: pointer;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem red;
+}
+
+section article h2, section article p{
+    margin: 1rem;
+
+}
+
+
+
+#pie{
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+
